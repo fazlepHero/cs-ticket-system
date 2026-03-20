@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.faah-purple-gradient {
+  background: linear-gradient(90deg, #632EE3, #9F62F2);
+}
+
+.faah-green-gradient {
+  background: linear-gradient(90deg, #54CF68, #00827A);
+}
