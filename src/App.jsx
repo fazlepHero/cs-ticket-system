@@ -5,6 +5,7 @@ import Nav from './components/nav/Nav'
 import { NumberCounting } from './components/numberCounting/NumberCounting'
 import TicketSection from './components/ticketSection/TicketSection'
 import { ToastContainer } from 'react-toastify'
+import { Footer } from './components/footer/Footer'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       <NumberCounting inProgress={inProgress} resolved={resolved} />
       <TicketSection data={[inProgress, setInProgress, resolved, setResolved]} />
 
-
+      <Footer />
       <ToastContainer/>
     </>
   )
